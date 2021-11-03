@@ -11,6 +11,7 @@ def multiply(*args):
     return product
 
 def subtract(*args):
+    print(args)
     result = 0
     for int in args:
         result = int - result
